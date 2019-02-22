@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="wishlist">Dog Wishlist</string>
+    <string name="likedprofiles">Liked Profiles</string>
+</resources>

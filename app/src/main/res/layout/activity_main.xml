@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:text="@string/wishlist"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <ImageView
+        android:id="@+id/imageviewdog"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:id="@+id/progresscircular"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+       <RelativeLayout
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/buttoncross"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/blackcross"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <ImageButton
+            android:id="@+id/buttonlike"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/blacktick" />
+
+       </RelativeLayout>
+
+</LinearLayout>
